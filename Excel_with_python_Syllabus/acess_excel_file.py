@@ -1,4 +1,5 @@
 # method 1: using os
+#code 1
 # import os
 
 # folder = "reports"
@@ -11,7 +12,7 @@
 
 
 # method 2: using pathlib
-
+#code 2
 # from pathlib import Path
 
 # folder = Path("reports")
@@ -19,7 +20,7 @@
 # for file in folder.glob("*.xlsx"):
 #     print(file)
 
-
+#code 3
 # def process_file(filename):
 #     try:
 #         print(f"Processing {filename}")
@@ -30,7 +31,7 @@
 
 
 
-
+#code 4
 # from openpyxl import Workbook
 
 # wb = Workbook()
@@ -44,7 +45,7 @@
 
 # wb.save("employee.xlsx")
 
-
+#code 5
 import pandas as pd
 import os
 
@@ -57,10 +58,12 @@ if os.path.exists(file_path):
 else:
     print("File not found:", file_path)
 
+#code 6
 high_sales = df[df["Amount_INR"] > 10000]
 
 print(high_sales)
 
+#code 7
 # df.groupby("Region")["Sales"].sum()  #apne data me naahi region ha na hi multiple city hai show that we have to generate a data which contain reqire data
 
 
