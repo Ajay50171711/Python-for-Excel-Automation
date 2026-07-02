@@ -1,0 +1,3 @@
+Sales Notes:
+All files contain sample Indian-origin sales data for Q1 2026.
+Currency: INR
